@@ -1,0 +1,8 @@
+- name: configuring "{{ name }}" server in frontend
+  ansible.builtin.package:
+   name: nginx
+   state: present
+  notify: restart nginx
+   
+  
+  

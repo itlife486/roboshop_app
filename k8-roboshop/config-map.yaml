@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+ name: dev-cm
+data:
+ game.propertites: |
+  env: dev
+ ui.propertites: |
+  name: "tarun"
